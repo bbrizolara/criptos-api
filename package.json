@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-exercise",
+  "name": "criptos-api",
   "version": "1.0.0",
   "description": "NodeJS coding exercise",
   "main": "index.js",
@@ -11,8 +11,8 @@
     "serve": "node dist/server.js",
     "start": "npm run serve"
   },
-  "author": "Pablo Blanco",
-  "license": "ISC",
+  "author": "Bruno Brizolara",
+  "license": "MIT",
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
     "@types/bcryptjs": "^2.4.2",
