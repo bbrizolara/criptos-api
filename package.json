@@ -1,0 +1,47 @@
+{
+  "name": "nodejs-exercise",
+  "version": "1.0.0",
+  "description": "NodeJS coding exercise",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rf /dist",
+    "build": "tsc",
+    "test": "jest --verbose --runInBand --useStderr",
+    "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules src/app.ts",
+    "serve": "node dist/server.js",
+    "start": "npm run serve"
+  },
+  "author": "Pablo Blanco",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.11",
+    "@types/ioredis": "^5.0.0",
+    "@types/jest": "^29.2.1",
+    "@types/joi": "^17.2.3",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/node": "^18.11.8",
+    "@types/supertest": "^2.0.12",
+    "jest": "^29.2.2",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.3.1",
+    "ts-jest": "^29.0.3",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^3.14.1",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "@types/express-rate-limit": "^6.0.0",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^6.6.0",
+    "ioredis": "^5.2.3",
+    "joi": "^17.6.4",
+    "jsonwebtoken": "^8.5.1"
+  }
+}

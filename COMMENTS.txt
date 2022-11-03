@@ -1,0 +1,7 @@
+I ran out of time.
+To complete the exercise i would 
+- update the tests and add new ones.
+- add a database to insert users
+- generate the token for users to later be validated
+- fix the Redis errors on build
+- modularize the hole app to use like a DDD arquithecture

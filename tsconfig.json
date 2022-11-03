@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "strict": false,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./src/@types", ".node_modules/@types"],
+    "paths": {
+      "@utils/*": ["./src/utils/*"]
+    },
+    "types": ["jest", "node", "@types/jest"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
