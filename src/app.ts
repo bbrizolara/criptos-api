@@ -4,6 +4,7 @@ import "express-async-errors";
 import { PORT } from "./config";
 import router from "./routes";
 import AppError from "./utils/app_error";
+import "./db/mongodb";
 
 // Create express server
 const app = express();
